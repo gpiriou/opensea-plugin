@@ -1,4 +1,6 @@
 .vscode/
+snapshot-tmp/
+tests/src/debug.test.js
 bin/
 debug/
 dep/
