@@ -6,7 +6,7 @@ The plugin improves displayed information on Nano screen devices to a human read
 
 ## OpenSea interface
 
-Most transactions emitted on Ethereum by an OpenSea user come from the [OpenSea contract](https://etherscan.io/address/0x7be8076f4ea4a4ad08075c2508e481d6c946d12b).
+Most transactions emitted on Ethereum by an OpenSea user come from the [OpenSea V2 contract](https://etherscan.io/address/0x7f268357A8c2552623316e2562D90e642bB538E5) (some cancelOrders might remain from the [OpenSea V1 contract](https://etherscan.io/address/0x7be8076f4ea4a4ad08075c2508e481d6c946d12b)).
 
 ### The plugin supports:
 
@@ -22,6 +22,8 @@ Most transactions emitted on Ethereum by an OpenSea user come from the [OpenSea 
 - Many interactions on the OpenSea platform require solely a signature from the Ledger device: Creating a collection, placing a bid, putting an item on sale, lowering said sale-price.
 
 ## Compilation
+
+*Note: The ethereum app should be on the "develop" branch.*
 
 To compile: `make DEBUG=10`
 
