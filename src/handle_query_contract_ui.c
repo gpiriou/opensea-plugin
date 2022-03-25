@@ -217,6 +217,10 @@ void handle_query_contract_ui(void *parameters)
     ethQueryContractUI_t *msg = (ethQueryContractUI_t *)parameters;
     opensea_parameters_t *context = (opensea_parameters_t *)msg->pluginContext;
 
+    // Clean the display fields.
+    memset(msg->title, 0, msg->titleLength);
+    memset(msg->msg, 0, msg->msgLength);
+
     get_screen_array(msg, context);
     msg->result = ETH_PLUGIN_RESULT_OK;
     switch (context->plugin_screen_index)
