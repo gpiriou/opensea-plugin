@@ -17,7 +17,7 @@ Most transactions emitted on Ethereum by an OpenSea user come from the [OpenSea 
 ### Not supported:
 
 - SetApprovalForAll (specific to collection contract, needed to allow OpenSea to "spend" user's NFT's meaning to transfer them once sale is triggered).
-- ProxyAssert (specific to collection contract, used to transfer several items from one owner to an other. (Not a sale)).
+- ProxyAssert (specific to collection contract, used to transfer several items from one owner to an other. (Not a sale).
 
 - Many interactions on the OpenSea platform require solely a signature from the Ledger device: Creating a collection, placing a bid, putting an item on sale, lowering said sale-price.
 
