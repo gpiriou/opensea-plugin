@@ -33,6 +33,10 @@ If you need to update the sdk, you will need to do it locally and create a PR on
 
 ## Testing
 
+###ZEMU
+
+Start by setting up the environment described [here](https://developers.ledger.com/docs/dapp/nano-plugin/environment-setup/)
+
 The tests consist of screenshots being compared and having to match a set of correct screenshots located in the `opensea-plugin/tests/snapshots` directory.
 
 To run the tests:
