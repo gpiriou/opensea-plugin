@@ -21,6 +21,10 @@ Most transactions emitted on Ethereum by an OpenSea user come from the [OpenSea 
 
 - Many interactions on the OpenSea platform require solely a signature from the Ledger device: Creating a collection, placing a bid, putting an item on sale, lowering said sale-price.
 
+## Setting up the dev environment
+
+Prepare the dev environment by following this [guide](https://developers.ledger.com/docs/dapp/nano-plugin/environment-setup/).
+
 ## Compilation
 
 *Note: The ethereum app should be on the "develop" branch.*
@@ -33,9 +37,9 @@ If you need to update the sdk, you will need to do it locally and create a PR on
 
 ## Testing
 
-###ZEMU
+### ZEMU
 
-Start by setting up the environment described [here](https://developers.ledger.com/docs/dapp/nano-plugin/environment-setup/)
+Set the testing environment described [here](https://developers.ledger.com/docs/dapp/nano-plugin/environment-setup/)
 
 The tests consist of screenshots being compared and having to match a set of correct screenshots located in the `opensea-plugin/tests/snapshots` directory.
 
